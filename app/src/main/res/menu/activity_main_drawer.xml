@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/account"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="My Account" />
+        <item
+            android:id="@+id/books"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="My Books" />
+        <item
+            android:id="@+id/catalog"
+            android:icon="@drawable/ic_library_books_black_24dp"
+            android:title="Catalog" />
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="Search" />
+        <item
+            android:id="@+id/signout"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign Out" />
+    </group>
+
+
+</menu>
